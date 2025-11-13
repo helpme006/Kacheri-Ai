@@ -1,4 +1,4 @@
-Project README
+# KACHERI AI
 
 This is a Python project for a RAG (Retrieval-Augmented Generation) application called "Kacheri Ai." It acts as an "AI Lawyer" ⚖️ by answering questions about a PDF document you provide.
 
