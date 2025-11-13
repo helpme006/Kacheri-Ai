@@ -1,4 +1,4 @@
-# KACHERI AI
+# KACHERI AI⚖️
 
 This is a Python project for a RAG (Retrieval-Augmented Generation) application called "Kacheri Ai." It acts as an "AI Lawyer" ⚖️ by answering questions about a PDF document you provide.
 
@@ -16,14 +16,14 @@ Follow these steps to get the project running on your Mac (M-series).
 
 1. Clone the Repository
 
-git clone [https://github.com/helpmef006/Kacheri-Ai.git](https://github.com/helpmef006/Kacheri-Ai.git)
-cd Kacheri-Ai
+   git clone [https://github.com/helpmef006/Kacheri-Ai.git](https://github.com/helpmef006/Kacheri-Ai.git)
+     cd Kacheri-Ai
 
 
 
 2. Install System Dependencies (for pyarrow)
 
-You must install these with Homebrew before installing the Python packages, or the installation will fail.
+	You must install these with Homebrew before installing the Python packages, or the installation will fail.
 
 # Install Homebrew (if you don't have it)
 /bin/bash -c "$(curl -fsSL [https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh](https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh))"
@@ -36,17 +36,17 @@ brew install apache-arrow
 
 3. Install and Set Up Ollama
 
-Download and install Ollama from ollama.com.
+	Download and install Ollama from ollama.com.
 
-Pull the correct embedding model:
+	Pull the correct embedding model:
 
-ollama pull nomic-embed-text
+	ollama pull nomic-embed-text
 
 
 
 4. Install Python Dependencies
 
-This project uses pipenv to manage dependencies.
+	This project uses pipenv to manage dependencies.
 
 # Install pipenv (if you don't have it)
 pip3 install pipenv
@@ -58,25 +58,25 @@ pipenv install
 
 5. Set Up Your Groq API Key
 
-Get your free API key from Groq Console.
+	Get your free API key from Groq Console.
 
-Create a file named .env in the Kacheri-Ai folder:
+	Create a file named .env in the Kacheri-Ai folder:
 
-touch .env
+	touch .env
 
 
 
-Add your API key to this .env file. (This file is in .gitignore and will not be uploaded).
+	Add your API key to this .env file. (This file is in .gitignore and will not be uploaded).
 
-GROQ_API_KEY="your-api-key-goes-here"
+	GROQ_API_KEY="your-api-key-goes-here"
 
 
 
 6. Add Your PDF
 
-Place the PDF file you want to query into the root of the Kacheri-Ai folder.
+	Place the PDF file you want to query into the root of the Kacheri-Ai folder.
 
-Open vector_database.py and change the file_path variable to match your PDF's filename. (The default is universal_declaration_of_human_rights.pdf).
+	Open vector_database.py and change the file_path variable to match your PDF's filename. (The default is 					universal_declaration_of_human_rights.pdf).
 
 # ▶️ Running the Project
 
