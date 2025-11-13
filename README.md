@@ -4,13 +4,13 @@ This is a Python project for a RAG (Retrieval-Augmented Generation) application 
 
 It uses a local Ollama model (nomic-embed-text) for indexing and the high-speed Groq API (llama-3.3-70b-versatile) for chat responses.
 
-Table of Contents
+* Table of Contents
 
-Environment Setup
+1. Environment Setup
 
-Running the Project
+2. Running the Project
 
-🚀 Environment Setup
+# 🚀 Environment Setup
 
 Follow these steps to get the project running on your Mac (M-series).
 
@@ -78,7 +78,7 @@ Place the PDF file you want to query into the root of the Kacheri-Ai folder.
 
 Open vector_database.py and change the file_path variable to match your PDF's filename. (The default is universal_declaration_of_human_rights.pdf).
 
-▶️ Running the Project
+# ▶️ Running the Project
 
 Make sure your Ollama application is running in the background.
 
