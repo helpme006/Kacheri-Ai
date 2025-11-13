@@ -1,0 +1,16 @@
+# Ignore virtual environments
+.venv/
+.virtualenv/
+
+# Ignore generated database files
+vectorstore/
+
+# Ignore PDF files
+*.pdf
+
+# Ignore environment files (like your .env with the API key)
+.env
+
+# Ignore Python cache
+__pycache__/
+*.pyc
