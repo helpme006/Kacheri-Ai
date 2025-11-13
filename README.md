@@ -1,4 +1,4 @@
-Kacheri Ai ⚖️
+#Kacheri Ai ⚖️
 
 Kacheri Ai is a Retrieval-Augmented Generation (RAG) application that acts as an "AI Lawyer." It uses a Large Language Model to answer questions based on a legal document (PDF) you provide.
 
@@ -68,6 +68,7 @@ git clone [https://github.com/helpmef006/Kacheri-Ai.git](https://github.com/help
 cd Kacheri-Ai
 
 
+
 2. Install System Dependencies (for pyarrow)
 
 You must install these with Homebrew before installing the Python packages.
@@ -80,6 +81,7 @@ brew install cmake
 brew install apache-arrow
 
 
+
 3. Install and Set Up Ollama
 
 Download and install Ollama from ollama.com.
@@ -87,6 +89,7 @@ Download and install Ollama from ollama.com.
 Pull the correct embedding model:
 
 ollama pull nomic-embed-text
+
 
 
 4. Install Python Dependencies
@@ -100,6 +103,7 @@ pip3 install pipenv
 pipenv install
 
 
+
 5. Set Up Your API Key
 
 Get your free API key from Groq Console.
@@ -109,9 +113,11 @@ Create a file named .env in the Kacheri-Ai folder:
 touch .env
 
 
+
 Add your API key to this .env file:
 
 GROQ_API_KEY="your-api-key-goes-here"
+
 
 
 6. Add Your PDF
@@ -135,12 +141,14 @@ pipenv shell
 python vector_database.py
 
 
+
 This will create the vectorstore/db_faiss directory.
 
 Step 2: Run the Streamlit App
 
 # (Make sure you are still in the pipenv shell)
 streamlit run frontend.py
+
 
 
 Your browser will automatically open to http://localhost:8501, and you can start chatting with your "AI Lawyer"!
